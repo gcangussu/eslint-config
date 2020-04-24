@@ -1,0 +1,38 @@
+{
+  "name": "@gcangussu/eslint-config",
+  "description": "ESLint shareable configs",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcangussu/eslint-config.git"
+  },
+  "author": "Gabriel Cangussu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcangussu/eslint-config/issues"
+  },
+  "homepage": "https://github.com/gcangussu/eslint-config#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@gcangussu/eslint-config-base": "./packages/base",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "eslint-find-rules": "^3.4.0",
+    "eslint-plugin-unicorn": "^18.0.1",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "typescript": "^3.8.3"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "./packages/base",
+  "env": { "node": true }
+}
