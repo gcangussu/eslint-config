@@ -120,4 +120,5 @@ module.exports = {
   "import/named": "off",
   "import/default": "off",
   "import/namespace": "off",
+  "import/no-named-as-default-member": "off",
 };

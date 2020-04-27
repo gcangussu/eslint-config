@@ -1,11 +1,11 @@
-const eslintRules = require("@gcangussu/eslint-config-base/rules/eslint");
-const unicornRules = require("@gcangussu/eslint-config-base/rules/unicorn");
-const typescriptRules = require("@gcangussu/eslint-config-base/rules/typescript");
-const typecheckRules = require("@gcangussu/eslint-config-base/rules/typecheck");
-const importRules = require("@gcangussu/eslint-config-base/rules/import");
+const eslintRules = require("@gcangussu/eslint-config/rules/eslint");
+const unicornRules = require("@gcangussu/eslint-config/rules/unicorn");
+const typescriptRules = require("@gcangussu/eslint-config/rules/typescript");
+const typecheckRules = require("@gcangussu/eslint-config/rules/typecheck");
+const importRules = require("@gcangussu/eslint-config/rules/import");
 
 module.exports = {
-  plugins: ["unicorn", "@typescript-eslint"],
+  plugins: ["unicorn", "import", "@typescript-eslint"],
   rules: {
     ...eslintRules,
     ...unicornRules,

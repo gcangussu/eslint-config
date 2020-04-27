@@ -1,4 +1,5 @@
 {
-  "extends": "./packages/base",
+  "root": true,
+  "extends": "@gcangussu/eslint-config/quick",
   "env": { "node": true }
 }

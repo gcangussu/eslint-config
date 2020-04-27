@@ -1,5 +1,5 @@
 {
-  "name": "@gcangussu/eslint-config-base",
+  "name": "@gcangussu/eslint-config",
   "version": "1.0.0",
   "license": "MIT",
   "description": "ESLint config for JavaScript and TypeScript code",
