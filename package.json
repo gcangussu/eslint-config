@@ -24,11 +24,11 @@
     }
   },
   "devDependencies": {
-    "@gcangussu/eslint-config-base": "./packages/base",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
     "eslint": "^6.8.0",
     "eslint-find-rules": "^3.4.0",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-unicorn": "^18.0.1",
     "husky": "^4.2.5",
     "prettier": "^2.0.5",

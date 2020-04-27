@@ -115,4 +115,9 @@ module.exports = {
 
   "space-before-function-paren": "off",
   "@typescript-eslint/space-before-function-paren": "off",
+
+  // eslint-plugin-import
+  "import/named": "off",
+  "import/default": "off",
+  "import/namespace": "off",
 };
