@@ -3,14 +3,23 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "ESLint config for JavaScript and TypeScript code",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.9"
+  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=2.29.0",
     "@typescript-eslint/parser": ">=2.29.0",
     "eslint": ">=6.8.0",
     "eslint-plugin-import": ">=2.20.2",
+    "eslint-plugin-node": ">=11.1.0",
     "eslint-plugin-unicorn": ">=18.0.1"
   },
-  "dependencies": {
-    "confusing-browser-globals": "^1.0.9"
+  "peerDependenciesMeta": {
+    "eslint-plugin-node": {
+      "optional": true
+    }
   }
 }

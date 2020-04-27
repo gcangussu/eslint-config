@@ -2,6 +2,9 @@
   "name": "@gcangussu/eslint-config",
   "description": "ESLint shareable configs",
   "private": true,
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gcangussu/eslint-config.git"
@@ -23,7 +26,8 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "devDependencies": {
+  "dependencies": {
+    "@gcangussu/eslint-config": "1.0.0",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
     "eslint": "^6.8.0",

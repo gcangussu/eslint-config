@@ -1,5 +1,4 @@
 {
   "root": true,
-  "extends": "@gcangussu/eslint-config/quick",
-  "env": { "node": true }
+  "extends": ["@gcangussu/eslint-config/quick", "@gcangussu/eslint-config/node"]
 }
