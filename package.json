@@ -1,7 +1,9 @@
 {
   "name": "@gcangussu/eslint-config",
-  "description": "ESLint shareable configs",
-  "private": true,
+  "description": "ESLint configs for JavaScript/TypeScript, Node.js, React and Jest",
+  "author": "Gabriel Cangussu",
+  "version": "1.0.0",
+  "license": "MIT",
   "engines": {
     "node": ">=10.0.0"
   },
@@ -9,27 +11,51 @@
     "type": "git",
     "url": "git+https://github.com/gcangussu/eslint-config.git"
   },
-  "author": "Gabriel Cangussu",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gcangussu/eslint-config/issues"
   },
   "homepage": "https://github.com/gcangussu/eslint-config#readme",
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
   },
   "dependencies": {
-    "@gcangussu/eslint-config": "1.0.0",
-    "@typescript-eslint/eslint-plugin": "^2.29.0",
-    "@typescript-eslint/parser": "^2.29.0",
+    "confusing-browser-globals": "^1.0.9"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=2.30.0",
+    "@typescript-eslint/parser": ">=2.30.0",
+    "eslint": ">=6.8.0",
+    "eslint-plugin-import": ">=2.20.2",
+    "eslint-plugin-jest": ">=23.8.2",
+    "eslint-plugin-jsx-a11y": ">=6.2.3",
+    "eslint-plugin-node": ">=11.1.0",
+    "eslint-plugin-react": ">=7.19.0",
+    "eslint-plugin-react-hooks": ">=3.0.0",
+    "eslint-plugin-unicorn": ">=18.0.1"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-node": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "optional": true
+    },
+    "eslint-plugin-jest": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
     "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^23.8.2",

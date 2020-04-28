@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": ["@gcangussu/eslint-config/quick", "@gcangussu/eslint-config/node"]
+  "extends": ["./index.js", "./node.js"]
 }
