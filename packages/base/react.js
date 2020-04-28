@@ -5,7 +5,7 @@ module.exports = {
     },
   },
   env: { browser: true },
-  plugins: ["react", "react-hooks", "jsx-a11y"],
+  plugins: ["react", "react-hooks", "jsx-a11y", "import"],
   settings: {
     react: { version: "detect" },
     linkComponents: [{ name: "Link", linkAttribute: "to" }],
@@ -193,5 +193,8 @@ module.exports = {
     "jsx-a11y/role-supports-aria-props": "error",
     "jsx-a11y/scope": "error",
     "jsx-a11y/tabindex-no-positive": "error",
+
+    // eslint-plugin-import
+    "import/dynamic-import-chunkname": "error",
   },
 };
