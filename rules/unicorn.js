@@ -13,6 +13,7 @@ module.exports = {
   "unicorn/prefer-node-append": "warn",
   "unicorn/prefer-node-remove": "warn",
   "unicorn/prefer-reflect-apply": "warn",
+  "unicorn/prefer-set-has": "warn",
   "unicorn/prefer-starts-ends-with": "warn",
   "unicorn/prefer-string-slice": "warn",
   "unicorn/prefer-text-content": "warn",
