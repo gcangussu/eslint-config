@@ -14,11 +14,27 @@
     "@typescript-eslint/parser": ">=2.29.0",
     "eslint": ">=6.8.0",
     "eslint-plugin-import": ">=2.20.2",
+    "eslint-plugin-jest": ">=23.8.2",
+    "eslint-plugin-jsx-a11y": ">=6.2.3",
     "eslint-plugin-node": ">=11.1.0",
+    "eslint-plugin-react": ">=7.19.0",
+    "eslint-plugin-react-hooks": ">=3.0.0",
     "eslint-plugin-unicorn": ">=18.0.1"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-node": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "optional": true
+    },
+    "eslint-plugin-jest": {
       "optional": true
     }
   }
