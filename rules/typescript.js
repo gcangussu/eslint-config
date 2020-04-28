@@ -102,6 +102,7 @@ module.exports = {
   "no-this-before-super": "off",
   "no-undef": "off",
   "no-redeclare": "off",
+  "consistent-return": "off",
 
   // unneeded/conflicting eslint-plugin-import
   "import/named": "off",
