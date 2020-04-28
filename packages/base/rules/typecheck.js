@@ -9,7 +9,6 @@ module.exports = {
   "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
   "@typescript-eslint/no-unnecessary-condition": "error",
   "@typescript-eslint/no-unnecessary-qualifier": "warn",
-  "@typescript-eslint/no-unnecessary-type-arguments": "off",
   "@typescript-eslint/no-unnecessary-type-assertion": "warn",
   "@typescript-eslint/no-unsafe-assignment": "error",
   "@typescript-eslint/no-unsafe-call": "error",
@@ -23,9 +22,6 @@ module.exports = {
     },
   ],
   "@typescript-eslint/prefer-includes": "warn",
-  "@typescript-eslint/prefer-nullish-coalescing": "off",
-  "@typescript-eslint/prefer-readonly": "off",
-  "@typescript-eslint/prefer-readonly-parameter-types": "off",
   "@typescript-eslint/prefer-reduce-type-parameter": "warn",
   "@typescript-eslint/prefer-regexp-exec": "error",
   "@typescript-eslint/prefer-string-starts-ends-with": "error",
@@ -46,7 +42,6 @@ module.exports = {
   ],
   "@typescript-eslint/strict-boolean-expressions": "error",
   "@typescript-eslint/switch-exhaustiveness-check": "error",
-  "@typescript-eslint/unbound-method": "off",
 
   // extension rules
   "require-await": "off",
