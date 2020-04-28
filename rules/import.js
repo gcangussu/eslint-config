@@ -21,6 +21,6 @@ module.exports = {
 
   // Style guide
   "import/newline-after-import": "error",
-  "import/no-unassigned-import": ["error", { allow: ["*.css"] }],
+  "import/no-unassigned-import": ["error", { allow: ["**/*.css"] }],
   "import/no-anonymous-default-export": "error",
 };
