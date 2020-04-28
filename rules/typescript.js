@@ -16,6 +16,7 @@ module.exports = {
   "@typescript-eslint/no-extra-non-null-assertion": "error",
   "@typescript-eslint/no-extraneous-class": "error",
   "@typescript-eslint/no-inferrable-types": "warn",
+  "@typescript-eslint/no-invalid-void-type": "error",
   "@typescript-eslint/no-misused-new": "error",
   "@typescript-eslint/no-namespace": "error",
   "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
