@@ -4,18 +4,19 @@ const importRules = require("./rules/import");
 const typescriptRules = require("./rules/typescript");
 const typecheckRules = require("./rules/typecheck");
 
-const allExtensions = [".ts", ".tsx", ".mjs", ".js", ".cjs"];
+const allExtensions = [".ts", ".tsx", ".d.ts", ".mjs", ".js", ".cjs"];
 
 module.exports = {
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: "module",
+    project: ["./tsconfig.json"],
   },
   plugins: ["unicorn", "import"],
   settings: {
     "import/extensions": allExtensions,
     "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"],
+      "@typescript-eslint/parser": [".ts", ".tsx", ".d.ts"],
     },
     "import/resolver": {
       node: { extensions: allExtensions },
