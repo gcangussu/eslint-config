@@ -2,7 +2,7 @@
   "name": "@gcangussu/eslint-config",
   "description": "ESLint configs for JavaScript/TypeScript, Node.js, React and Jest",
   "author": "Gabriel Cangussu",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "license": "MIT",
   "engines": {
     "node": ">=10.0.0"
@@ -33,7 +33,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^3.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
     "eslint-plugin-unicorn": "^19.0.1"
   },
   "peerDependenciesMeta": {
