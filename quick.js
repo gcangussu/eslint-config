@@ -14,9 +14,7 @@ module.exports = {
 
     // disable all type aware rules
     ...Object.keys(typecheckRules).reduce((obj, key) => {
-      if (key.startsWith("@typescript-eslint/")) {
-        obj[key] = "off";
-      }
+      if (key.startsWith("@typescript-eslint/")) obj[key] = "off";
       return obj;
     }, {}),
   },
