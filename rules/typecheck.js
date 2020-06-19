@@ -37,7 +37,7 @@ module.exports = {
       allowNumber: true,
       allowBoolean: true,
       allowAny: false,
-      allowNullable: true,
+      allowNullish: true,
     },
   ],
   "@typescript-eslint/strict-boolean-expressions": "error",
