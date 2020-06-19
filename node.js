@@ -15,5 +15,10 @@ module.exports = {
     "node/no-unsupported-features/node-builtins": "error",
     "node/process-exit-as-throw": "error",
     "node/shebang": "error",
+    "node/global-require": "warn",
+    "node/no-new-require": "error",
+    "node/no-path-concat": "warn",
+    "node/no-process-env": "warn",
+    "node/no-process-exit": "warn",
   },
 };
