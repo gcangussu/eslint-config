@@ -22,10 +22,7 @@ anything else.
 ```json
 {
   "root": true,
-  "extends": [
-    "@gcangussu/eslint-config"
-    // other config(s) or none
-  ]
+  "extends": ["@gcangussu/eslint-config"]
 }
 ```
 

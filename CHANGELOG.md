@@ -33,4 +33,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   `node/no-path-concat` and `node/no-process-exit`).
 
 [unreleased]: https://github.com/gcangussu/eslint-config/compare/v4.0.0...HEAD
-[4.0.0]: https://github.com/gcangussu/eslint-config/compare/v3.0.1...HEAD
+[4.0.0]: https://github.com/gcangussu/eslint-config/compare/v3.0.1...v4.0.0
