@@ -64,6 +64,7 @@ module.exports = {
   "no-labels": "error",
   "no-lone-blocks": "error",
   "no-lonely-if": "error",
+  "no-loss-of-precision": "error",
   "no-loop-func": "error",
   "no-misleading-character-class": "error",
   "no-multi-assign": "error",
@@ -101,6 +102,7 @@ module.exports = {
   "no-unmodified-loop-condition": "error",
   "no-unneeded-ternary": "error",
   "no-unreachable": "error",
+  "no-unreachable-loop": "error",
   "no-unsafe-finally": "error",
   "no-unsafe-negation": "error",
   "no-unused-expressions": [
@@ -113,6 +115,7 @@ module.exports = {
   ],
   "no-unused-labels": "error",
   "no-unused-vars": "error",
+  "no-useless-backreference": "error",
   "no-useless-call": "error",
   "no-useless-catch": "error",
   "no-useless-computed-key": "error",
