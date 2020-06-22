@@ -5,7 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [5.0.0] - 2020-06-22
+
+### Added
+
+- `jest/no-conditional-expect` as warn.
+- TS extension rule `@typescript-eslint/no-loss-of-precision`.
+
+### Removed
+
+- Removed deprecated `jest/no-try-expect` (functionality covered by `jest/no-conditional-expect`).
 
 ## [4.0.0] - 2020-06-20
 
@@ -32,5 +41,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v4.0.0...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v5.0.0...HEAD
+[5.0.0]: https://github.com/gcangussu/eslint-config/compare/v4.0.0...v5.0.0
 [4.0.0]: https://github.com/gcangussu/eslint-config/compare/v3.0.1...v4.0.0

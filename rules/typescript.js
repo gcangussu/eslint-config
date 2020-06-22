@@ -60,6 +60,9 @@ module.exports = {
   "no-extra-semi": "off",
   "@typescript-eslint/no-extra-semi": "off",
 
+  "no-loss-of-precision": "off",
+  "@typescript-eslint/no-loss-of-precision": "error",
+
   "no-magic-numbers": "off",
   "@typescript-eslint/no-magic-numbers": "off",
 

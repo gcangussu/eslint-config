@@ -11,7 +11,7 @@ Objectives:
 - Fullest coverage on your CI.
 - Don't include rules for enforcing formatting (work nicely with tools like
   [prettier](https://prettier.io/)).
-- Avoid rules that are covered by TypeScript.
+- Avoid rules that are covered by TypeScript compiler.
 
 # Usage
 
@@ -33,7 +33,7 @@ Configs that can be put after the base config are:
 - `@gcangussu/eslint-config/react`: React and JSX.
 - `@gcangussu/eslint-config/node`: Node.js and commonjs modules.
 - `@gcangussu/eslint-config/jest`: Jest testing framework.
-- `@gcangussu/eslint-config/quick`: Disable slow rules of the base config.
+- `@gcangussu/eslint-config/quick`: Disable slow rules from the base config.
 
 The order of these extra configs should not matter.
 
@@ -80,8 +80,8 @@ rules.
 ## TypeScript
 
 By default we assume you'll have a `tsconfig.json` file on the current
-working directory. To customize this check `tsconfigRootDir` and `project`
-parser options of [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md).
+working directory. To customize this use `tsconfigRootDir` and `project`
+parser options ([ref](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md)).
 
 Example customization to use the config file own directory and a TS config
 named `tsconfig-production`:

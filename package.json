@@ -2,7 +2,7 @@
   "name": "@gcangussu/eslint-config",
   "description": "ESLint configs for JavaScript/TypeScript, Node.js, React and Jest",
   "author": "Gabriel Cangussu",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "exports": {
     ".": "./index.js",
     "./jest": "./jest.js",
@@ -31,11 +31,11 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.3.0",
-    "@typescript-eslint/parser": "^3.3.0",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
     "confusing-browser-globals": "^1.0.9",
     "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-jest": "^23.13.2",
+    "eslint-plugin-jest": "^23.16.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-react": "^7.20.0",
