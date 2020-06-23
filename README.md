@@ -13,6 +13,9 @@ Objectives:
   [prettier](https://prettier.io/)).
 - Avoid rules that are covered by TypeScript compiler.
 
+**Important**, if you run into problems with plugins see
+[About plugin dependencies section](#about-plugin-dependencies).
+
 # Usage
 
 Always extend the base config first. It is good for general JavaScript
@@ -92,3 +95,19 @@ parserOptions: {
   project: ['./tsconfig-production.json']
 }
 ```
+
+## About plugin dependencies
+
+This package currently declares its plugins dependencies as _dependencies_
+in its _package.json_. Although the most correct way would be to declare
+them as _peer dependencies_. This is done so users of this config don't
+need to install and keep updated all the plugins themselves. But this will
+only work if your package manager hoists all the required plugins to a
+_node_modules_ directory reachable by the ESLint process.
+
+Sometimes your package manager may be unable to hoist some plugin package.
+And for some package managers, such as [pnpm](https://pnpm.js.org/), it
+doesn't work by design. On case of problems resolving plugins, the probable
+solution is to install the plugin(s) on your project. There are declared
+_optional peer dependencies_ of the plugins on the _package.json_ for that
+reason.

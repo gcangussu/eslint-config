@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.0.1] - 2020-06-23
+
+### Added
+
+- All plugins as **optional** peer dependencies. See section _"About plugin dependencies"_
+  in the README.
+
 ## [5.0.0] - 2020-06-22
 
 ### Added
@@ -41,6 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v5.0.0...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v5.0.1...HEAD
+[5.0.1]: https://github.com/gcangussu/eslint-config/compare/v5.0.0...v5.0.1
 [5.0.0]: https://github.com/gcangussu/eslint-config/compare/v4.0.0...v5.0.0
 [4.0.0]: https://github.com/gcangussu/eslint-config/compare/v3.0.1...v4.0.0
