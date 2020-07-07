@@ -41,7 +41,7 @@ module.exports = {
     "react/jsx-key": ["error", { checkFragmentShorthand: true }],
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-script-url": "error",
-    "react/jsx-no-target-blank": "error",
+    "react/jsx-no-target-blank": ["error", { allowReferrer: true }],
     "react/jsx-no-undef": "error",
     "react/jsx-no-useless-fragment": "warn",
     "react/jsx-pascal-case": "warn",
