@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.1.0] - 2020-07-28
+
+### Changed
+
+- set `allowSingleExtends` on `@typescript-eslint/no-empty-interface`
+
 ## [6.0.0] - 2020-07-28
 
 ### Added
@@ -78,7 +84,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v6.0.0...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v6.1.0...HEAD
+[6.1.0]: https://github.com/gcangussu/eslint-config/compare/v6.0.0...v6.1.0
 [6.0.0]: https://github.com/gcangussu/eslint-config/compare/v5.1.2...v6.0.0
 [5.1.2]: https://github.com/gcangussu/eslint-config/compare/v5.1.1...v5.1.2
 [5.1.1]: https://github.com/gcangussu/eslint-config/compare/v5.1.0...v5.1.1

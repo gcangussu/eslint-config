@@ -8,7 +8,10 @@ module.exports = {
       format: ["PascalCase"],
     },
   ],
-  "@typescript-eslint/no-empty-interface": "error",
+  "@typescript-eslint/no-empty-interface": [
+    "error",
+    { allowSingleExtends: true },
+  ],
   "@typescript-eslint/no-explicit-any": [
     "error",
     { fixToUnknown: true, ignoreRestArgs: true },
