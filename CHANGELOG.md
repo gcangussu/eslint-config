@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Added
 
 - `react/no-typos` as error on the `react` preset
+- `jest/no-interpolation-in-snapshots` as error in the `jest` preset
 
 ## [5.1.2] - 2020-07-21
 
