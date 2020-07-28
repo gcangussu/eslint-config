@@ -26,6 +26,7 @@ module.exports = {
     "react/no-redundant-should-component-update": "warn",
     "react/no-render-return-value": "error",
     "react/no-string-refs": "error",
+    "react/no-typos": "error",
     "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
     "react/react-in-jsx-scope": "error",
