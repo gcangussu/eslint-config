@@ -11,7 +11,7 @@ Objectives:
 - Fullest coverage on your CI.
 - Don't include rules for enforcing formatting (work nicely with tools like
   [prettier](https://prettier.io/)).
-- Avoid rules that are covered by TypeScript compiler.
+- Avoid rules that are covered by the TypeScript compiler.
 
 **Important**, if you run into problems with plugins see
 [About plugin dependencies section](#about-plugin-dependencies).
@@ -84,7 +84,7 @@ rules.
 
 By default we assume you'll have a `tsconfig.json` file on the current
 working directory. To customize this use `tsconfigRootDir` and `project`
-parser options ([ref](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md)).
+parser options ([ref](https://github.com/typescript-eslint/typescript-eslint/blob/v4.0.1/docs/getting-started/linting/TYPED_LINTING.md)).
 
 Example customization to use the config file own directory and a TS config
 named `tsconfig-production`:

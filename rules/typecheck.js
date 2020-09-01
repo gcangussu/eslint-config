@@ -14,13 +14,6 @@ module.exports = {
   "@typescript-eslint/no-unsafe-call": "error",
   "@typescript-eslint/no-unsafe-member-access": "error",
   "@typescript-eslint/no-unsafe-return": "error",
-  "@typescript-eslint/no-unused-vars-experimental": [
-    "error",
-    {
-      ignoredNamesRegex: false,
-      ignoreArgsIfArgsAfterAreUsed: true,
-    },
-  ],
   "@typescript-eslint/prefer-includes": "warn",
   "@typescript-eslint/prefer-reduce-type-parameter": "warn",
   "@typescript-eslint/prefer-regexp-exec": "error",

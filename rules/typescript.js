@@ -69,6 +69,9 @@ module.exports = {
   "no-magic-numbers": "off",
   "@typescript-eslint/no-magic-numbers": "off",
 
+  "no-shadow": "off",
+  "@typescript-eslint/no-shadow": "warn",
+
   "no-unused-expressions": "off",
   "@typescript-eslint/no-unused-expressions": [
     "error",
