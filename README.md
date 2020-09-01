@@ -13,8 +13,8 @@ Objectives:
   [prettier](https://prettier.io/)).
 - Avoid rules that are covered by the TypeScript compiler.
 
-**Important**, if you run into problems with plugins see
-[About plugin dependencies section](#about-plugin-dependencies).
+> ⚠️ If you run into problems with plugins see
+> [About plugin dependencies section](#about-plugin-dependencies).
 
 # Usage
 
@@ -45,6 +45,10 @@ The order of these extra configs should not matter.
 This config removes slow rules that are added by the base config. Just
 extend it after the base config.
 
+> ⚠️ Ensure `parserOptions.project` is undefined or `null`. Otherwise
+> `@typescript-eslint/parser` will gather type information anyway, thus
+> making ESLint slow.
+
 ```json
 {
   "root": true,
@@ -55,7 +59,7 @@ extend it after the base config.
 ## Full and quick dynamic config
 
 Slow linting feedback is especially bad on your code editor. So you may
-want to only use the _quick_ config on your IDE, using all the rules on
+want to use the _quick_ config on your IDE, only using all the rules on
 your testing script and CI. This can be achieved by keeping two config
 files (e.g. `.eslintrc.json` and `.eslintrc-full.json`) like the two
 examples above. And then running `eslint` with `--config .eslintrc-full.json`
@@ -80,6 +84,26 @@ By default `isQuick` will be `true`. So your editor will lint quickly.
 Then, use `LINT_QUICK=false eslint` on your test script to test with all
 rules.
 
+To have the fastest linting, ensure you set `parserOptions.project` to
+`null` when using the _quick_ config. Otherwise `@typescript-eslint/parser`
+will gather type information from the projects, even though no rule
+requires type info. For example, you can use:
+
+```js
+const isQuick = process.env.LINT_QUICK !== "false";
+
+module.exports = {
+  root: true,
+  extends: [
+    "@gcangussu/eslint-config",
+    ...(isQuick ? ["@gcangussu/eslint-config/quick"] : []),
+  ],
+  parserOptions: {
+    project: isQuick ? null : ["./tsconfig.json", "./packages/*/tsconfig.json"],
+  },
+};
+```
+
 ## TypeScript
 
 By default we assume you'll have a `tsconfig.json` file on the current
@@ -87,7 +111,7 @@ working directory. To customize this use `tsconfigRootDir` and `project`
 parser options ([ref](https://github.com/typescript-eslint/typescript-eslint/blob/v4.0.1/docs/getting-started/linting/TYPED_LINTING.md)).
 
 Example customization to use the config file own directory and a TS config
-named `tsconfig-production`:
+named `tsconfig-production.json`:
 
 ```js
 parserOptions: {

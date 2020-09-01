@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [7.0.1] - 2020-09-01
+
+### Changed
+
+- Fix `Parsing error: Invalid value for lib provided: es2021` by setting
+  `parserOptions.ecmaVersion` to 2020 for TypeScript files
+- Update README.md with information relating `parserOptions.project`
+  and linting performance.
+
 ## [7.0.0] - 2020-09-01
 
 ### Added
@@ -125,7 +134,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v7.0.0...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v7.0.1...HEAD
+[7.0.1]: https://github.com/gcangussu/eslint-config/compare/v7.0.0...v7.0.1
 [7.0.0]: https://github.com/gcangussu/eslint-config/compare/v6.1.4...v7.0.0
 [6.1.4]: https://github.com/gcangussu/eslint-config/compare/v6.1.3...v6.1.4
 [6.1.3]: https://github.com/gcangussu/eslint-config/compare/v6.1.2...v6.1.3
