@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [7.1.0] - 2020-09-02
+
+### Added
+
+- Support resolving `.jsx` files.
+- Imports with explicit `.js` or `.jsx` extensions are resolved to
+  TypeScript modules (`.ts`, `.tsx`, `.d.ts`). This is the same behavior
+  of the TypeScript compiler.
+- Support resolving modules through TypeScript's base URL and paths
+  mapping (compiler options `baseUrl` and `paths` respectively).
+  This requires configuration
+  ([instructions on README](README.md#resolving-modules-with-typescripts-paths-and-baseurl-options)).
+
+### Changed
+
+- Use `eslint-import-resolver-typescript` for resolving imported modules
+  with `eslint-plugin-import`. Previously we were using the default `node`
+  resolver shipped with `eslint-plugin-import`.
+
 ## [7.0.1] - 2020-09-01
 
 ### Changed
@@ -134,7 +153,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v7.0.1...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v7.1.0...HEAD
+[7.1.0]: https://github.com/gcangussu/eslint-config/compare/v7.0.1...v7.1.0
 [7.0.1]: https://github.com/gcangussu/eslint-config/compare/v7.0.0...v7.0.1
 [7.0.0]: https://github.com/gcangussu/eslint-config/compare/v6.1.4...v7.0.0
 [6.1.4]: https://github.com/gcangussu/eslint-config/compare/v6.1.3...v6.1.4

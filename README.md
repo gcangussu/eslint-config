@@ -1,6 +1,6 @@
 # ESLint Config
 
-Opinionated ESLint config made for usage in JavaScript and TypeScript code.
+Opinionated [ESLint] config made for usage in JavaScript and TypeScript code.
 Support for React, Jest and Node.js plugable presets. Includes a _quick_
 preset for fast linting by disabling slow rules.
 
@@ -46,7 +46,7 @@ This config removes slow rules that are added by the base config. Just
 extend it after the base config.
 
 > ⚠️ Ensure `parserOptions.project` is undefined or `null`. Otherwise
-> `@typescript-eslint/parser` will gather type information anyway, thus
+> [`@typescript-eslint/parser`] will gather type information anyway, thus
 > making ESLint slow.
 
 ```json
@@ -85,7 +85,7 @@ Then, use `LINT_QUICK=false eslint` on your test script to test with all
 rules.
 
 To have the fastest linting, ensure you set `parserOptions.project` to
-`null` when using the _quick_ config. Otherwise `@typescript-eslint/parser`
+`null` when using the _quick_ config. Otherwise [`@typescript-eslint/parser`]
 will gather type information from the projects, even though no rule
 requires type info. For example, you can use:
 
@@ -120,6 +120,28 @@ parserOptions: {
 }
 ```
 
+## Resolving modules with TypeScript's paths and baseUrl options
+
+When using TypeScript's [`baseUrl`] or [`paths`] options, you'll want to
+configure the paths to your `tsconfig.json` files to
+[`eslint-import-resolver-typescript`]. This will allow [`eslint-plugin-import`]
+to resolve imports to the correct modules. See the example below:
+
+```js
+const tsProject = ["./tsconfig.json", "./packages/*/tsconfig.json"];
+
+module.exports = {
+  root: true,
+  extends: "@gcangussu/eslint-config",
+  parserOptions: { project: tsProject },
+  settings: {
+    "import/resolver": {
+      typescript: { project: tsProject },
+    },
+  },
+};
+```
+
 ## About plugin dependencies
 
 This package currently declares its plugins dependencies as _dependencies_
@@ -135,3 +157,10 @@ doesn't work by design. On case of problems resolving plugins, the probable
 solution is to install the plugin(s) on your project. There are declared
 _optional peer dependencies_ of the plugins on the _package.json_ for that
 reason.
+
+[eslint]: https://eslint.org/
+[`@typescript-eslint/parser`]: https://github.com/typescript-eslint/typescript-eslint#readme
+[`eslint-plugin-import`]: https://github.com/benmosher/eslint-plugin-import#readme
+[`eslint-import-resolver-typescript`]: https://github.com/alexgorbatchev/eslint-import-resolver-typescript#readme
+[`paths`]: https://www.typescriptlang.org/tsconfig#paths
+[`baseurl`]: https://www.typescriptlang.org/tsconfig#baseUrl

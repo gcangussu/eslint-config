@@ -4,7 +4,7 @@ const importRules = require("./rules/import");
 const typescriptRules = require("./rules/typescript");
 const typecheckRules = require("./rules/typecheck");
 
-const allExtensions = [".ts", ".tsx", ".d.ts", ".mjs", ".js", ".cjs"];
+const allExtensions = [".ts", ".tsx", ".d.ts", ".mjs", ".js", ".cjs", ".jsx"];
 
 module.exports = {
   parserOptions: {
@@ -19,7 +19,7 @@ module.exports = {
       "@typescript-eslint/parser": [".ts", ".tsx", ".d.ts"],
     },
     "import/resolver": {
-      node: { extensions: allExtensions },
+      typescript: { extensions: allExtensions },
     },
   },
   rules: { ...eslintRules, ...unicornRules, ...importRules },
