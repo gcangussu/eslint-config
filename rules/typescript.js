@@ -63,6 +63,9 @@ module.exports = {
   "no-extra-semi": "off",
   "@typescript-eslint/no-extra-semi": "off",
 
+  "no-loop-func": "off",
+  "@typescript-eslint/no-loop-func": "error",
+
   "no-loss-of-precision": "off",
   "@typescript-eslint/no-loss-of-precision": "error",
 
