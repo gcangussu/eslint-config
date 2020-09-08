@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add `jest/valid-title` as _warn_ to the _jest_ config.
+- Add `@typescript-eslint/no-loop-func` extension rule for TypeScript
+  files.
 
 ### Changed
 
