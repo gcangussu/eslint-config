@@ -1,6 +1,16 @@
 {
   "name": "@gcangussu/eslint-config",
   "description": "ESLint configs for JavaScript/TypeScript, Node.js, React and Jest",
+  "keywords": [
+    "eslint",
+    "config",
+    "preset",
+    "typescript",
+    "node",
+    "react",
+    "jest",
+    "quick"
+  ],
   "author": "Gabriel Cangussu <gabrielcangussu@gmail.com> (https://github.com/gcangussu)",
   "version": "8.0.0",
   "exports": {
