@@ -21,7 +21,7 @@ module.exports = {
       { resolves: "Use `expect(await promise)` instead." },
     ],
     "jest/no-standalone-expect": "error",
-    "jest/no-test-callback": "error",
+    "jest/no-done-callback": "error",
     "jest/no-test-prefixes": "error",
     "jest/no-test-return-statement": "error",
     "jest/prefer-spy-on": "warn",
@@ -30,5 +30,6 @@ module.exports = {
     "jest/valid-describe": "error",
     "jest/valid-expect": "error",
     "jest/valid-expect-in-promise": "error",
+    "jest/valid-title": "warn",
   },
 };
