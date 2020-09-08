@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [8.0.0] - 2020-09-08
 
 ### Added
 
@@ -13,12 +13,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `@typescript-eslint/no-loop-func` extension rule for TypeScript
   files.
 
+### Removed
+
+- Remove setting `parserOptions.ecmaVersion` to 2020 for TypeScript files.
+  `typescript-eslint` now handles unknown versions correctly.
+
 ### Changed
 
 - Update `eslint-plugin-jest` from 23.20.0 to 24.0.0.
 - Replace `jest/no-test-callback` for `jest/no-done-callback` rule in the
   _jest_ config. The new rule will now report hooks using callbacks as well,
   not just tests.
+- Update dependencies.
 
 ## [7.1.0] - 2020-09-02
 
@@ -168,7 +174,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v7.1.0...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v8.0.0...HEAD
+[8.0.0]: https://github.com/gcangussu/eslint-config/compare/v7.1.0...v8.0.0
 [7.1.0]: https://github.com/gcangussu/eslint-config/compare/v7.0.1...v7.1.0
 [7.0.1]: https://github.com/gcangussu/eslint-config/compare/v7.0.0...v7.0.1
 [7.0.0]: https://github.com/gcangussu/eslint-config/compare/v6.1.4...v7.0.0
