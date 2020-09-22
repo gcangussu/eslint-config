@@ -33,6 +33,9 @@ module.exports = {
   "comma-spacing": "off",
   "@typescript-eslint/comma-spacing": "off",
 
+  "comma-dangle": "off",
+  "@typescript-eslint/comma-dangle": "off",
+
   "default-param-last": "off",
   "@typescript-eslint/default-param-last": "error",
 
