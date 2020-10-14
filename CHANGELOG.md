@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [8.1.0] - 2020-10-15
+
+### Added
+
+- Add `@typescript-eslint/no-duplicate-imports` extension rule for TypeScript.
+
+### Changed
+
+- Updated dependencies.
+
 ## [8.0.3] - 2020-10-02
 
 ### Changed
