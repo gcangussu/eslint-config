@@ -202,7 +202,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v8.0.3...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v8.1.0...HEAD
+[8.1.0]: https://github.com/gcangussu/eslint-config/compare/v8.0.3...v8.1.0
 [8.0.3]: https://github.com/gcangussu/eslint-config/compare/v8.0.2...v8.0.3
 [8.0.2]: https://github.com/gcangussu/eslint-config/compare/v8.0.1...v8.0.2
 [8.0.1]: https://github.com/gcangussu/eslint-config/compare/v8.0.0...v8.0.1
