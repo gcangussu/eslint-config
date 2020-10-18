@@ -12,7 +12,7 @@
     "quick"
   ],
   "author": "Gabriel Cangussu <gabrielcangussu@gmail.com> (https://github.com/gcangussu)",
-  "version": "8.1.0",
+  "version": "9.0.0",
   "exports": {
     ".": "./index.js",
     "./jest": "./jest.js",
@@ -51,7 +51,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-react": "^7.21.4",
     "eslint-plugin-react-hooks": "^4.1.2",
-    "eslint-plugin-unicorn": "^22.0.0"
+    "eslint-plugin-unicorn": "^23.0.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.4.1",

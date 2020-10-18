@@ -29,7 +29,7 @@ module.exports = {
     "react/no-typos": "error",
     "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
-    "react/react-in-jsx-scope": "error",
+    "react/react-in-jsx-scope": "off",
     "react/require-render-return": "error",
     "react/self-closing-comp": "warn",
     "react/style-prop-object": "error",
@@ -46,7 +46,7 @@ module.exports = {
     "react/jsx-no-undef": "error",
     "react/jsx-no-useless-fragment": "warn",
     "react/jsx-pascal-case": "warn",
-    "react/jsx-uses-react": "error",
+    "react/jsx-uses-react": "off",
     "react/jsx-uses-vars": "error",
 
     // eslint-plugin-jsx-a11y
