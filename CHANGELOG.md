@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [9.0.1] - 2020-10-24
+
+### Changed
+
+- Updated dependencies.
+
 ## [9.0.0] - 2020-10-18
 
 This release is motivated by the new [React 16.14 release](https://github.com/facebook/react/releases/tag/v16.14.0).
@@ -219,7 +225,8 @@ that the usage of JSX implies on the usage of the imported `React`.
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v9.0.0...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v9.0.1...HEAD
+[9.0.1]: https://github.com/gcangussu/eslint-config/compare/v9.0.0...v9.0.1
 [9.0.0]: https://github.com/gcangussu/eslint-config/compare/v8.1.0...v9.0.0
 [8.1.0]: https://github.com/gcangussu/eslint-config/compare/v8.0.3...v8.1.0
 [8.0.3]: https://github.com/gcangussu/eslint-config/compare/v8.0.2...v8.0.3
