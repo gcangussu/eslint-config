@@ -11,7 +11,7 @@ Objectives:
 - Fullest coverage on your CI.
 - Don't include rules for enforcing formatting (works nicely with tools like
   [prettier](https://prettier.io/)).
-- Avoid rules that are covered by the TypeScript compiler.
+- On TypeScript files, avoid rules that can be covered by the TypeScript compiler.
 
 > ⚠️ If you run into problems with plugins see
 > [About plugin dependencies section](#about-plugin-dependencies).
