@@ -65,8 +65,8 @@ files (e.g. `.eslintrc.json` and `.eslintrc-full.json`) like the two
 examples above. And then running `eslint` with `--config .eslintrc-full.json`
 on your test script.
 
-Other option is by using a single JavaScript config file (`eslintrc.js`)
-and a environment variable:
+Other option is using a single JavaScript config file (`eslintrc.js`)
+with an environment variable:
 
 ```js
 const isQuick = process.env.LINT_QUICK !== "false";
