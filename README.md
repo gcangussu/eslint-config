@@ -9,7 +9,7 @@ Objectives:
 - Help developers avoid errors and bad practices.
 - Fast feedback on your code editor.
 - Fullest coverage on your CI.
-- Don't include rules for enforcing formatting (work nicely with tools like
+- Don't include rules for enforcing formatting (works nicely with tools like
   [prettier](https://prettier.io/)).
 - Avoid rules that are covered by the TypeScript compiler.
 
