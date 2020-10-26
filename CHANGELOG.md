@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [10.0.0] - 2020-10-26
+
+### Added
+
+- Enabled `ignoreRestSiblings` option on `no-unused-vars` rule for JavaScript
+  files only.
+- Disallow call expressions as default exports (`allowCallExpression: false`
+  on `import/no-anonymous-default-export` rule options).
+- `react/prop-types` rule as `warn` for JavaScript files only.
+- `react/default-props-match-prop-types` rule as `error`.
+- `react/forbid-prop-types` rule as `warn`.
+
+### Removed
+
+- deprecated `no-buffer-constructor` rule.
+- deprecated `jsx-a11y/accessible-emoji` rule.
+
+### Changed
+
+- `default-param-last` severity from `error` to `warn`.
+- `no-unused-vars` severity from `error` to `warn` for JavaScript files only.
+- `import/newline-after-import` severity from `error` to `warn`.
+- `import/no-unassigned-import` severity from `error` to `warn`.
+- `import/no-anonymous-default-export` severity from `error` to `warn`.
+- Updated dependencies.
+
 ## [9.0.2] - 2020-10-24
 
 ### Changed
@@ -232,7 +258,8 @@ that the usage of JSX implies on the usage of the imported `React`.
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v9.0.2...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v10.0.0...HEAD
+[10.0.0]: https://github.com/gcangussu/eslint-config/compare/v9.0.2...v10.0.0
 [9.0.2]: https://github.com/gcangussu/eslint-config/compare/v9.0.1...v9.0.2
 [9.0.1]: https://github.com/gcangussu/eslint-config/compare/v9.0.0...v9.0.1
 [9.0.0]: https://github.com/gcangussu/eslint-config/compare/v8.1.0...v9.0.0

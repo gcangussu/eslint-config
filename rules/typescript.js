@@ -37,7 +37,7 @@ module.exports = {
   "@typescript-eslint/comma-dangle": "off",
 
   "default-param-last": "off",
-  "@typescript-eslint/default-param-last": "error",
+  "@typescript-eslint/default-param-last": "warn",
 
   "func-call-spacing": "off",
   "@typescript-eslint/func-call-spacing": "off",

@@ -1,3 +1,4 @@
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   parserOptions: {
     ecmaFeatures: { jsx: true },
@@ -14,6 +15,11 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
 
     // eslint-plugin-react
+    "react/default-props-match-prop-types": "error",
+    "react/forbid-prop-types": [
+      "warn",
+      { checkContextTypes: true, checkChildContextTypes: true },
+    ],
     "react/no-access-state-in-setstate": "error",
     "react/no-array-index-key": "warn",
     "react/no-children-prop": "error",
@@ -29,6 +35,7 @@ module.exports = {
     "react/no-typos": "error",
     "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
+    "react/prop-types": "warn",
     "react/react-in-jsx-scope": "off",
     "react/require-render-return": "error",
     "react/self-closing-comp": "warn",
@@ -50,7 +57,6 @@ module.exports = {
     "react/jsx-uses-vars": "error",
 
     // eslint-plugin-jsx-a11y
-    "jsx-a11y/accessible-emoji": "error",
     "jsx-a11y/alt-text": "error",
     "jsx-a11y/anchor-has-content": "error",
     "jsx-a11y/anchor-is-valid": "error",
@@ -196,4 +202,12 @@ module.exports = {
     // eslint-plugin-import
     "import/dynamic-import-chunkname": "error",
   },
+  overrides: [
+    {
+      files: ["*.ts", "*.tsx"],
+      rules: {
+        "react/prop-types": "off",
+      },
+    },
+  ],
 };
