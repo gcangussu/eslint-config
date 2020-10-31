@@ -21,9 +21,26 @@ module.exports = {
 
   // Style guide
   "import/newline-after-import": "warn",
-  "import/no-unassigned-import": ["warn", { allow: ["**/*.css"] }],
+  "import/no-unassigned-import": [
+    "warn",
+    { allow: ["**/*.css", "**/*.scss", "**/*.sass", "**/*.less"] },
+  ],
   "import/no-anonymous-default-export": [
     "warn",
     { allowCallExpression: false },
+  ],
+  "import/order": [
+    "warn",
+    {
+      groups: [
+        "builtin",
+        "external",
+        "internal",
+        "unknown",
+        "parent",
+        "sibling",
+        "index",
+      ],
+    },
   ],
 };

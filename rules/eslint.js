@@ -10,6 +10,7 @@ module.exports = {
   "default-param-last": "warn",
   eqeqeq: ["error", "always", { null: "ignore" }],
   "for-direction": "error",
+  "func-name-matching": ["warn", { considerPropertyDescriptor: true }],
   "func-names": ["error", "as-needed"],
   "getter-return": "error",
   "grouped-accessor-pairs": "error",

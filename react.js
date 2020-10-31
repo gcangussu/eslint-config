@@ -16,6 +16,7 @@ module.exports = {
 
     // eslint-plugin-react
     "react/default-props-match-prop-types": "error",
+    "react/display-name": "error",
     "react/forbid-prop-types": [
       "warn",
       { checkContextTypes: true, checkChildContextTypes: true },

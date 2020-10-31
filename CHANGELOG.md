@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [11.0.0] - 2020-10-31
+
+### Added
+
+- `func-name-matching` rule as `warn`.
+- `react/display-name` rule as `error`.
+- `import/order` rule as `warn`.
+- `@typescript-eslint/no-unnecessary-type-constraint` rule as `warn`.
+- `unicorn/new-for-builtins` rule as `warn`.
+- `unicorn/number-literal-case` rule as `warn`.
+- `unicorn/prefer-array-find` rule as `warn`.
+- `unicorn/prefer-ternary` rule as `warn`.
+- Allow unassigned import of `.scss`, `.sass` and `.less` files. In
+  addition to the already allowed `.css`.
+
+### Changed
+
+- Updated dependencies.
+
 ## [10.0.0] - 2020-10-26
 
 ### Added
@@ -258,7 +277,8 @@ that the usage of JSX implies on the usage of the imported `React`.
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v10.0.0...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v11.0.0...HEAD
+[11.0.0]: https://github.com/gcangussu/eslint-config/compare/v10.0.0...v11.0.0
 [10.0.0]: https://github.com/gcangussu/eslint-config/compare/v9.0.2...v10.0.0
 [9.0.2]: https://github.com/gcangussu/eslint-config/compare/v9.0.1...v9.0.2
 [9.0.1]: https://github.com/gcangussu/eslint-config/compare/v9.0.0...v9.0.1

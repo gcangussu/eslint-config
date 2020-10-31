@@ -23,6 +23,7 @@ module.exports = {
   "@typescript-eslint/no-misused-new": "error",
   "@typescript-eslint/no-namespace": "error",
   "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
+  "@typescript-eslint/no-unnecessary-type-constraint": "warn",
   "@typescript-eslint/prefer-as-const": "warn",
   "@typescript-eslint/triple-slash-reference": "error",
 
