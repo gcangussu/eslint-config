@@ -1,6 +1,13 @@
 module.exports = {
   "@typescript-eslint/await-thenable": "error",
   "@typescript-eslint/no-base-to-string": "error",
+  "@typescript-eslint/no-confusing-void-expression": [
+    "warn",
+    {
+      ignoreArrowShorthand: true,
+      ignoreVoidOperator: true,
+    },
+  ],
   "@typescript-eslint/no-floating-promises": "error",
   "@typescript-eslint/no-for-in-array": "error",
   "@typescript-eslint/no-implied-eval": "error",

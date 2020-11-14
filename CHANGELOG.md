@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [12.0.0] - 2020-11-14
+
+### Added
+
+- `@typescript-eslint/no-confusing-void-expression` rule as `warn`.
+
+### Changed
+
+- Removed `typescript` as a dependency. Now it is a mandatory peer
+  dependency. This fixes a bug when trying to install a newer version
+  of TypeScript on a project that uses this package.
+
 ## [11.0.2] - 2020-11-13
 
 ### Changed
@@ -289,7 +301,8 @@ that the usage of JSX implies on the usage of the imported `React`.
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v11.0.2...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v12.0.0...HEAD
+[12.0.0]: https://github.com/gcangussu/eslint-config/compare/v11.0.2...v12.0.0
 [11.0.2]: https://github.com/gcangussu/eslint-config/compare/v11.0.1...v11.0.2
 [11.0.1]: https://github.com/gcangussu/eslint-config/compare/v11.0.0...v11.0.1
 [11.0.0]: https://github.com/gcangussu/eslint-config/compare/v10.0.0...v11.0.0
