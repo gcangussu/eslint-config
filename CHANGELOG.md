@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [14.0.0] - 2020-12-10
+
+### Added
+
+- `no-unsafe-optional-chaining` rule as `error` for JS files only.
+
+### Changed
+
+- Updated dependencies.
+- Requires ESLint >= 7.15.0
+
 ## [13.0.0] - 2020-11-24
 
 ### Added
@@ -312,8 +323,8 @@ that the usage of JSX implies on the usage of the imported `React`.
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v13.0.0...HEAD
-[13.0.0]: https://github.com/gcangussu/eslint-config/compare/v12.0.0...v13.0.0
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v14.0.0...HEAD
+[14.0.0]: https://github.com/gcangussu/eslint-config/compare/v13.0.0...v14.0.0
 [12.0.0]: https://github.com/gcangussu/eslint-config/compare/v11.0.2...v12.0.0
 [11.0.2]: https://github.com/gcangussu/eslint-config/compare/v11.0.1...v11.0.2
 [11.0.1]: https://github.com/gcangussu/eslint-config/compare/v11.0.0...v11.0.1

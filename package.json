@@ -12,7 +12,7 @@
     "quick"
   ],
   "author": "Gabriel Cangussu <gabrielcangussu@gmail.com> (https://github.com/gcangussu)",
-  "version": "13.0.0",
+  "version": "14.0.0",
   "exports": {
     ".": "./index.js",
     "./jest": "./jest.js",
