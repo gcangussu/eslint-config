@@ -12,7 +12,6 @@ module.exports = {
   "@typescript-eslint/no-for-in-array": "error",
   "@typescript-eslint/no-implied-eval": "error",
   "@typescript-eslint/no-misused-promises": "error",
-  "@typescript-eslint/no-throw-literal": "error",
   "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
   "@typescript-eslint/no-unnecessary-condition": "error",
   "@typescript-eslint/no-unnecessary-qualifier": "warn",
@@ -21,6 +20,7 @@ module.exports = {
   "@typescript-eslint/no-unsafe-call": "error",
   "@typescript-eslint/no-unsafe-member-access": "error",
   "@typescript-eslint/no-unsafe-return": "error",
+  "@typescript-eslint/non-nullable-type-assertion-style": "warn",
   "@typescript-eslint/prefer-includes": "warn",
   "@typescript-eslint/prefer-reduce-type-parameter": "warn",
   "@typescript-eslint/prefer-regexp-exec": "error",
@@ -44,6 +44,9 @@ module.exports = {
   "@typescript-eslint/switch-exhaustiveness-check": "error",
 
   // extension rules
+  "no-throw-literal": "off",
+  "@typescript-eslint/no-throw-literal": "error",
+
   "require-await": "off",
   "@typescript-eslint/require-await": "off",
 

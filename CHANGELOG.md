@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [15.0.0] - 2020-12-28
+
+### Added
+
+- `@typescript-eslint/non-nullable-type-assertion-style` rule as `warn`.
+- `unicorn/no-lonely-if` rule as `warn`.
+- `unicorn/prefer-date-now` rule as `warn`.
+
+### Fixed
+
+- Disable `no-throw-literal` for TypeScript files because the extension
+  rule `@typescript-eslint/no-throw-literal` is enabled.
+
+### Changed
+
+- Updated dependencies.
+
 ## [14.0.0] - 2020-12-10
 
 ### Added
@@ -323,7 +340,8 @@ that the usage of JSX implies on the usage of the imported `React`.
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v14.0.0...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v15.0.0...HEAD
+[15.0.0]: https://github.com/gcangussu/eslint-config/compare/v14.0.0...v15.0.0
 [14.0.0]: https://github.com/gcangussu/eslint-config/compare/v13.0.0...v14.0.0
 [12.0.0]: https://github.com/gcangussu/eslint-config/compare/v11.0.2...v12.0.0
 [11.0.2]: https://github.com/gcangussu/eslint-config/compare/v11.0.1...v11.0.2
