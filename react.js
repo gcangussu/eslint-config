@@ -47,10 +47,16 @@ module.exports = {
     "react/jsx-boolean-value": "warn",
     "react/jsx-curly-brace-presence": "warn",
     "react/jsx-fragments": "warn",
-    "react/jsx-key": ["error", { checkFragmentShorthand: true }],
+    "react/jsx-key": [
+      "error",
+      { checkFragmentShorthand: true, checkKeyMustBeforeSpread: true },
+    ],
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-script-url": "error",
-    "react/jsx-no-target-blank": ["error", { allowReferrer: true }],
+    "react/jsx-no-target-blank": [
+      "error",
+      { allowReferrer: true, warnOnSpreadAttributes: true },
+    ],
     "react/jsx-no-undef": "error",
     "react/jsx-no-useless-fragment": "warn",
     "react/jsx-pascal-case": "warn",

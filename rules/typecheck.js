@@ -13,7 +13,10 @@ module.exports = {
   "@typescript-eslint/no-implied-eval": "error",
   "@typescript-eslint/no-misused-promises": "error",
   "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
-  "@typescript-eslint/no-unnecessary-condition": "error",
+  "@typescript-eslint/no-unnecessary-condition": [
+    "error",
+    { allowConstantLoopConditions: true },
+  ],
   "@typescript-eslint/no-unnecessary-qualifier": "warn",
   "@typescript-eslint/no-unnecessary-type-assertion": "warn",
   "@typescript-eslint/no-unsafe-assignment": "error",

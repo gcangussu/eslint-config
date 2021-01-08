@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [16.0.0] - 2020-01-08
+
+### Added
+
+- `checkKeyMustBeforeSpread` option to `react/jsx-key` rule.
+- `warnOnSpreadAttributes` option to `react/jsx-no-target-blank` rule.
+- `allowConstantLoopConditions` option to `@typescript-eslint/no-unnecessary-condition` rule.
+- `unicorn/prefer-array-some` rule as `warn`.
+
+### Changed
+
+- Updated dependencies.
+
 ## [15.0.0] - 2020-12-28
 
 ### Added
@@ -340,7 +353,8 @@ that the usage of JSX implies on the usage of the imported `React`.
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v15.0.0...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v16.0.0...HEAD
+[16.0.0]: https://github.com/gcangussu/eslint-config/compare/v15.0.0...v16.0.0
 [15.0.0]: https://github.com/gcangussu/eslint-config/compare/v14.0.0...v15.0.0
 [14.0.0]: https://github.com/gcangussu/eslint-config/compare/v13.0.0...v14.0.0
 [12.0.0]: https://github.com/gcangussu/eslint-config/compare/v11.0.2...v12.0.0
