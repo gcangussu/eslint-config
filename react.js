@@ -36,6 +36,7 @@ module.exports = {
     "react/no-typos": "error",
     "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
+    "react/no-unstable-nested-components": ["warn", { allowAsProps: true }],
     "react/prop-types": "warn",
     "react/react-in-jsx-scope": "off",
     "react/require-render-return": "error",
