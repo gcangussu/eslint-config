@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `unicorn/no-array-push-push` rule as `warn`.
 - `unicorn/no-static-only-class` rule as `warn`.
 - `unicorn/prefer-array-flat` rule as `warn`.
+- `react/no-unstable-nested-components` rule as `warn`.
 - `enforceForJSX` option to `no-unused-expressions` rule.
 
 ### Changed
