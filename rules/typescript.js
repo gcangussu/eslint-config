@@ -102,6 +102,9 @@ module.exports = {
   "no-useless-constructor": "off",
   "@typescript-eslint/no-useless-constructor": "error",
 
+  "object-curly-spacing": "off",
+  "@typescript-eslint/object-curly-spacing": "off",
+
   quotes: "off",
   "@typescript-eslint/quotes": "off",
 
