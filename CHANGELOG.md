@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Minimun ESLint version is now 7.20.0.
 - Updated dependencies.
 
 ## [16.0.1] - 2020-01-17
