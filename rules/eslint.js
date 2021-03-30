@@ -113,6 +113,7 @@ module.exports = {
       allowShortCircuit: false,
       allowTernary: false,
       allowTaggedTemplates: true,
+      enforceForJSX: true,
     },
   ],
   "no-unused-labels": "error",
