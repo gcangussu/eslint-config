@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [17.0.0] - 2020-03-30
+
+### Added
+
+- `unicorn/no-array-push-push` rule as `warn`.
+- `unicorn/no-static-only-class` rule as `warn`.
+- `unicorn/prefer-array-flat` rule as `warn`.
+
+### Changed
+
+- Updated dependencies.
+
 ## [16.0.1] - 2020-01-17
 
 ### Changed
@@ -359,7 +371,8 @@ that the usage of JSX implies on the usage of the imported `React`.
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v16.0.1...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v17.0.0...HEAD
+[17.0.0]: https://github.com/gcangussu/eslint-config/compare/v16.0.1...v17.0.0
 [16.0.1]: https://github.com/gcangussu/eslint-config/compare/v16.0.0...v16.0.1
 [16.0.0]: https://github.com/gcangussu/eslint-config/compare/v15.0.0...v16.0.0
 [15.0.0]: https://github.com/gcangussu/eslint-config/compare/v14.0.0...v15.0.0
