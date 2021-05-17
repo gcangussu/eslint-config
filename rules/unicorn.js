@@ -1,11 +1,11 @@
 module.exports = {
   "unicorn/custom-error-definition": "error",
   "unicorn/error-message": "error",
-  "unicorn/explicit-length-check": "warn",
   "unicorn/new-for-builtins": "warn",
   "unicorn/no-abusive-eslint-disable": "error",
   "unicorn/no-array-push-push": "warn",
   "unicorn/no-console-spaces": "warn",
+  "unicorn/no-document-cookie": "warn",
   "unicorn/no-instanceof-array": "error",
   "unicorn/no-lonely-if": "warn",
   "unicorn/no-static-only-class": "warn",

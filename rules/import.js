@@ -40,6 +40,7 @@ module.exports = {
         "parent",
         "sibling",
         "index",
+        "type",
       ],
     },
   ],

@@ -5,13 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [17.0.1] - 2020-04-20
+## [18.0.0] - 2021-05-17
+
+### Added
+
+- `unicorn/no-document-cookie` rule as `warn`.
+- `type` import type as last in order of `import/order` rule.
+
+### Removed
+
+- `unicorn/explicit-length-check` due to false positives
+
+### Changed
+
+- Minimun eslint-plugin-unicorn version is now 32.0.0.
+- Updated dependencies.
+
+## [17.0.1] - 2021-04-20
 
 ### Changed
 
 - Updated dependencies.
 
-## [17.0.0] - 2020-03-30
+## [17.0.0] - 2021-03-30
 
 ### Added
 
@@ -26,13 +42,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Minimun ESLint version is now 7.20.0.
 - Updated dependencies.
 
-## [16.0.1] - 2020-01-17
+## [16.0.1] - 2021-01-17
 
 ### Changed
 
 - Updated dependencies.
 
-## [16.0.0] - 2020-01-08
+## [16.0.0] - 2021-01-08
 
 ### Added
 
@@ -380,7 +396,8 @@ that the usage of JSX implies on the usage of the imported `React`.
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v17.0.1...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v18.0.0...HEAD
+[18.0.0]: https://github.com/gcangussu/eslint-config/compare/v17.0.1...v18.0.0
 [17.0.1]: https://github.com/gcangussu/eslint-config/compare/v17.0.0...v17.0.1
 [17.0.0]: https://github.com/gcangussu/eslint-config/compare/v16.0.1...v17.0.0
 [16.0.1]: https://github.com/gcangussu/eslint-config/compare/v16.0.0...v16.0.1
