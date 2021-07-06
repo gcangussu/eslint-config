@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [18.0.4] - 2021-07-06
+
+### Changed
+
+- Updated dependencies.
+
 ## [18.0.3] - 2021-06-08
 
 ### Changed
@@ -414,7 +420,8 @@ that the usage of JSX implies on the usage of the imported `React`.
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v18.0.3...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v18.0.4...HEAD
+[18.0.4]: https://github.com/gcangussu/eslint-config/compare/v18.0.3...v18.0.4
 [18.0.3]: https://github.com/gcangussu/eslint-config/compare/v18.0.2...v18.0.3
 [18.0.2]: https://github.com/gcangussu/eslint-config/compare/v18.0.1...v18.0.2
 [18.0.1]: https://github.com/gcangussu/eslint-config/compare/v18.0.0...v18.0.1
