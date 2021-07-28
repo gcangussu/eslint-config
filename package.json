@@ -12,7 +12,7 @@
     "quick"
   ],
   "author": "Gabriel Cangussu <gabrielcangussu@gmail.com> (https://github.com/gcangussu)",
-  "version": "18.0.5",
+  "version": "18.0.6",
   "exports": {
     ".": "./index.js",
     "./jest": "./jest.js",
@@ -41,12 +41,12 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.28.3",
-    "@typescript-eslint/parser": "^4.28.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
     "confusing-browser-globals": "^1.0.10",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-react": "^7.24.0",
@@ -54,8 +54,8 @@
     "eslint-plugin-unicorn": "^34.0.1"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.28.3",
-    "@typescript-eslint/parser": "^4.28.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
     "eslint": ">=7.20.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.23.4",
@@ -107,7 +107,7 @@
     }
   },
   "devDependencies": {
-    "eslint": "^7.30.0",
+    "eslint": "^7.31.0",
     "husky": "^4.3.8",
     "prettier": "^2.3.2",
     "pretty-quick": "^3.1.1",
