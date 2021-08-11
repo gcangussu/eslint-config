@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [19.0.0] - 2021-08-11
+
+### Added
+
+- `parserOptions.jsxPragma = null` to default to the new JSX transform
+- `unicorn/no-useless-length-check` rule as `warn`
+- `unicorn/no-useless-spread` rule as `warn`
+- `unicorn/prefer-object-from-entries` rule as `warn`
+
+### Changed
+
+- Minimun eslint-plugin-unicorn version is now 35.0.0
+- Minimum Node.js version is 12.0.0
+- Updated dependencies.
+
 ## [18.0.6] - 2021-07-14
 
 ### Changed
@@ -432,7 +447,8 @@ that the usage of JSX implies on the usage of the imported `React`.
   and `no-process-exit` by their respective Node plugin rules (`node/no-new-require`,
   `node/no-path-concat` and `node/no-process-exit`).
 
-[unreleased]: https://github.com/gcangussu/eslint-config/compare/v18.0.6...HEAD
+[unreleased]: https://github.com/gcangussu/eslint-config/compare/v19.0.0...HEAD
+[19.0.0]: https://github.com/gcangussu/eslint-config/compare/v18.0.6...v19.0.0
 [18.0.6]: https://github.com/gcangussu/eslint-config/compare/v18.0.5...v18.0.6
 [18.0.5]: https://github.com/gcangussu/eslint-config/compare/v18.0.4...v18.0.5
 [18.0.4]: https://github.com/gcangussu/eslint-config/compare/v18.0.3...v18.0.4
