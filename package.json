@@ -41,7 +41,7 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.1",
     "confusing-browser-globals": "^1.0.10",
     "eslint-import-resolver-typescript": "^2.3.0",
@@ -54,7 +54,7 @@
     "eslint-plugin-unicorn": "^35.0.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.1",
     "eslint": ">=7.20.0",
     "eslint-import-resolver-typescript": "^2.3.0",
